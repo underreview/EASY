@@ -2,6 +2,12 @@
 
 Source code for the submitted SIGIR paper.
 
+<p align="center">
+    <br>
+    <img alt="Overview" src="https://raw.githubusercontent.com/underreview/EASY/main/figure/overview.png" width="100%"/>
+    <br>
+<p>
+
 ## Installation
 
 To run our code, first install required packages. Then run preprocess
@@ -46,6 +52,10 @@ into <code>aligned_vectors/</code> folder.
 After acquiring similarity matrices from NEAP, run main.py to refine.
 
     python main.py --pair en_fr 
+
+Change arguments for different settings. To get help on arugments, run 
+
+    python main.py --help
 
 ## Acknowledgement
 
