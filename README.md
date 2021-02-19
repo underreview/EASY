@@ -12,7 +12,7 @@ Source code for the submitted SIGIR paper.
 
 To run our code, first install required packages. Then run preprocess
 
-    pip install requirements.txt
+    pip install -r requirements.txt
     sh preprocess.sh
 
 ## Run 
